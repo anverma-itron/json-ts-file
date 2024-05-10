@@ -1,0 +1,1558 @@
+[
+  {
+    "title": "Test GET - Get settlement-zones",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get settlement-markets",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get retail-settlement-points",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get market types",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get settlement retailers with only MarketId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get settlement retailers with only ZoneId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get settlement retailers without MarketId and ZoneId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get config flat service for ServicePointId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get config flat for MeterId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get config settlement-zone-details",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get config settlement-market-details",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - check meter-swap-compatibility",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get config fetch service for one ServicepointId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get config Fetch service for one MeterIDs",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Enrollment Description",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Enrollment Name",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Enrollment Type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Enrollment Customer class",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - condif save for Enrollment UDA update",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Enrollment By changing Zone,Retailer ID nad RSTPT id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retailer Name",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retailer Description",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retailer status",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retailer Type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retailer UDA",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get formula texts",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement statistics with ZoneId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement statistics with MarketId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement points from Zone ID and IsReportable as No",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement code types as 0",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement code types as 1",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement code types as 2",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement code types as 3",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement code types as 4",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get retail settlement point details",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Validate meter linked to Service point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Validate meter not linked to Service point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Validate meter that is not PBC (Legacy/Advanced)",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Validate meter that is PBC and not linked to Service point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Meter swap preview",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Delete Service point ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Delete Meter ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Delete Settlement Point Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Delete Retail Settlement Point ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Delete Retailer ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Delete Enrollment ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Delete Meter program ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Delete Service Point Program ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Delete Service point Channel ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Delete Zone Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retail Settlement point Reportable",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retail Settlement point service point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retail Settlement point Description",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retail Settlement point status",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retail Settlement point Type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retail Settlement point Energy reporting ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retail Settlement point ICAP reporting ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retail Settlement point By changing Zone,Retailer ID nad RSTPT id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - config save for Retail Settlement point UDA update",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get settlement retailer types",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get commodity types",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get settlement retailers with both MarketId and ZoneId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get retail settlement point types",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get search details of service point readings",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement code types as 6",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement points from Zone ID and IsReportable as All",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get linked entities of Retailer Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement points from Zone ID and IsReportable as Yes",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get config Fetch service for Two MeterId's",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get config fetch service for two ServicepointId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get config meterprograms",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get config meterprograms for marketType-1",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get config servicepointprograms for MarketType-0",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get config servicepointprograms for MarketType-1",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Delete Market ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get retail settlement statistics with ZoneId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get retail settlement statistics with MarketId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get linked entities of Enrollment Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get linked entities of Market Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get linked entities of Service point Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get linked entities of Zone Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get linked entities of Retail settlement Id with enrollment count as false",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get linked entities of Retail settlement Id with enrollment count as true",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get search details of Retail settlement point, Retailer and Enrollment based on service point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement retrieve-channelmaps",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get settlement-enrollment-types",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get settlement customer class",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Retrive data for wholesale Market",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get retrieve-settlement-data for wholesale Zone",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get wholesale retrieve-settlement-data for one Settlement point ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get retrieve-settlement-data for wholesale for two settlement points",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get retrieve-settlement-data for marketindia",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get retrieve-settlement-data for Retail zone",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get retrieve-settlement-data for Retail Settlement point List table for one Settlement point Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get retrieve-settlement-data for Retail Settlement point List Table for Two settlement point Ids",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Submit settlement data of Wholesale Market",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Submit settlement data of Wholesale Zone",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Submit settlement data of Wholesale settlement point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Submit settlement data of Retail Market",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Submit settlement data of Retail Zone",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Submit settlement data of Retail settlement point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement submission history of Wholesale Market",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement submission history of Wholesale Zone",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement submission history of Wholesale settlement point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement submission history of Retail Market",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement submission history of Retail Zone",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement submission history of Retail settlement point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement-point-details for Wholesale with  aggregation method 0",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement-point-details forWholesale with aggregation method 1",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement-point-details for Wholesale with aggregation method-2",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Settlement-point-details for Retail with aggregation method 0",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Settlement-point-details for Retail with aggregation method 1",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Settlement-point-details for Retail with aggregation method 2",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement-comparison-data for Market",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get settlement-comparison-data for zone",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get gateway readings of Zone",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get gateway readings of service point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get gateway readings of settlement point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get readings of Service point zone ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get readings of service point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get readings of settlement point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get readings available physical channels only",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get readings of formula contributors using service point channel id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get readings of formula contributors using formula",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get lookup holiday-lists",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get Look up for Settlem,ent code 0(MarketType)",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get settlement-code-values for 1(Market Region)",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get Look up for settlement-code-values  for 2(Settlement point Type)",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get Lookup settlement-code-values-3(Settlement point operator)",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get Lookup settlement-code-values-4(Settlement point Unit type)",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get Lookup settlement-code-values-6(Settlement type)",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Lookup entity status of Account",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Lookup entity status of All entity type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Lookup entity status of Customer",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Lookup entity status of Service Order Status",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Lookup entity status of Settlement Retailer",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Lookup entity status of Settlement Point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get system settings of WholesaleSettlementTitle",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get  system-settings for WholesaleSettlementTitle",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get  system-settings for licensing",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get  system-settings for workflowmanager",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get Lookup users",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get lookup external-systems",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get system-settings",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get code-valuesfor BillValidateMode",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get code-values for BillType",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get code-values for BillStatus",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Lookup timezones",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Lookup timezone DST details",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Lookup entity status of Meter",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Lookup entity status of Premise",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Lookup reading status",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Lookup user defined attributes",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get system settings of WorkflowManager",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get system settings of Licensing",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the list of tasks based on its status as 'Running'",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the list of tasks based on its status as 'Canceled'",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the list of all statuses",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the list of all categories",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the list of all types",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the list of all servers",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the details of any specific task by task ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the tasks based on task type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the tasks based on task status",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the tasks based on key list",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the tasks based on users",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the tasks based on servers",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the tasks based on task ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the tasks based on filter mode",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the tasks based on Due time",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the tasks based on Scheduled time",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the tasks based on Run time",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get the list of child tasks of any parent task",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get the log of any task",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the task statistics based on task type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the task statistics based on task status",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the task statistics based on key list",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the task statistics based on users",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the task statistics based on servers",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the task statistics based on task ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the task statistics based on filter mode",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the task statistics based on Due time",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the task statistics based on Scheduled time",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Filter the task statistics based on Run time",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Run any given specifix task by task ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Creates a task using the given request templateId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Creates a task using the given request templateId & requestedStartDate",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Creates a settlement task using the given request templateId, requestedStartDate & task parameters",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Creates a task using the given request templateId, requestedStartDate, task parameters & userId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Gets the task tamplates for a given task category",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Gets the task tamplates for a Settlement related task category",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Gets the task tamplates with no task category",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Cancel any tasks",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Hold any tasks",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Move any task to current",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Move any task to history",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Stop any tasks",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Release any tasks",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Run  any tasks now",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get all the markets from the database",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Gets all the customer classes from database",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Gets all the zones linked for the selected market",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the entire configuration of a given enrollment ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get last updated date of enrollment Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the property list of the given enrollment ID Copy",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the zone list based on the market ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the retailers list based on zone ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get all the configuration updated versions of the given enrollment ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the hierarchy tree of enrollment for given version dates",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the configuration channel details of the enrollment ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Validate endpoint given enrollment ID and list of links, returns whether enrollment ID is linked to any of the items in the list",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Create and save a new version of enrollment by changing 'Type' property",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Create and save a new version of enrollment by changing 'Customer class' property",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Save the configuration based on updated UDAs",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Save the configuration based on updated enrollment name, description",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Save the configuration based on updated enrollment type, customer class and service point ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Save the configuration based on updated market, zone and retailer",
+    "status": "Passed"
+  },
+  {
+    "title": "Test PUT - Update/change the enrollment ID using correct ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test DELETE - Delete the given enrollement ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the entire configuration for given RSTPT Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get last updated date of retail settlement Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the property List of the given RetailSettlementpointId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the Zones List based on Market Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get Retailer Ids based on Zone",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get all the configuration updated versions of the given Retail Settlement point ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the hierarchy tree of RetailSettlementpointId for given version dates",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the configuration channel details of the RSTPT Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Validate endpoint given RetailSettlementpointID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Validate end point of the given RSTPT id and check whether Respective Service Point Id is linked",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Validate end point for given RSTPT id and check whether  Retailer id is linked",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Create and save a new version of RetailSettlementpoint by changing 'Type' property",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - create and save new version of RetailSettlement point by changing Status property",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - save the configuration based on updated UDA's for RSTPT configuration",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Save the Configuration based on Updated RetailSettlementpoint Description",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Save the configuration based on Updated Energy Reporting Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Save the Condifuration based on Updated IsReportable property for RSTPT",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Save the configuration based on Updated IcapId for Rstpt",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Save the configuration ny updating Type,Status,Service point Id for rstpt",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Save the configuration by updating Market,zone,Retailer for RSTPT",
+    "status": "Passed"
+  },
+  {
+    "title": "Test PUT - Update/change RSTPT ID using Correct Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test DELETE - Delete given RetailSettlementPointiD",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get last updated date of retailer Id",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the zone list based on the market ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the retailers list based on zone ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the configuration for a given entity",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get all the configuration updated versions of the given Retailer ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the hierarchy tree of retailer for given version dates",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Validate endpoint given retailer ID and list of links, returns whether retailer ID is linked to any of the items in the list",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Create and save a new version of Retailer by changing 'Type' property",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Create and save a new version of retailer by changing status property",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Save the configuration based on updated UDAs",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Save the configuration based on updated retailer name, description",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Save the configuration based on updated retailer type, status",
+    "status": "Passed"
+  },
+  {
+    "title": "Test PUT - Update/change the Retailer ID using correct ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test DELETE - Delete the given Retailer ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the Validation count on Small card for the last 24 hrs",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the Validation count on Medium card for the last 24 hrs and KPI data stats for the last 7 days and past 24hrs",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the Validation count on Large card for the last 24 hrs and KPI data stats for the last 7 days and past 24hrs",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get all the Device ID details in Table view with the selected filters and with skip 25 and take 25",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get all the Device ID details in Table view with the selected filters and with skip 0 take 50",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get all the Device ID details in Table view with the selected filters and with skip 100 take 100",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get all the Device ID details in Table view with the selected filters and with skip 30 take 10",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Mark the Device IDs on the Map with their longitude and latitude details for the combination of selected filters1",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Mark the Device IDs on the Map with their longitude and latitude details for the combination of selected filters2",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Mark the Device IDs on the Map with their longitude and latitude details for the combination of selected filters3",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get all the facet-options present in the Database",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the particular Device ID complete details from the map marker",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Do meter swap for two meter of different Market Type with Two swap true",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Do meter swap for two meter of different Market Type with Two swap false",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get meter swap data and delete action",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get reading for source meter for the date reading(Estimated and Actual Estimated) is available",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get reading for target meter for the date reading(Estimated and Actual Estimated) is available",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get reading for target meter for the date reading is not available",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET -  Get reading for source meter for the date reading is not available",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Download Service point reading of the source meter",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Download Service point reading of the target meter",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get meter details for target meter without Service Point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get meter details for source meter with Service Point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST -  Get meter details for target meter with Service Point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Do meter swap for two meter of same Market Type with Two swap false",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Do meter swap for two meter of same Market Type with Two swap true",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Do meter swap for two meter of different CT/PT ratio with Two swap false",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Do meter swap for two meter of different CT/PT ratio with Two swap true",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Do meter swap for two meter of different PCF with Two swap false",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Do meter swap for two meter of different PCF with Two swap true",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Swap meters with keeping reads in source SP with two way false",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST -  Swap meters without reads with two way true",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Swap meters with keeping reads in source SP and target SP with two way true",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Swap meters with keeping reads in source SP and target SP with two way false",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Swap meters with keeping reads in target SP with two way true",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get meter details for source meter without Service Point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Service point details based on search query provided",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Retailer details based on search query provided",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Enrollment details based on search query provided",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Retail Settlement point details based on search query provided",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get list of all service point programs in IEE",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get list of all meter program in IEE",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the list of all retailers in IEE",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get list of all market types in IEE",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get list of available fields in Service Point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get list of available fields in Retailer",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get list of available fields in Retail Settlement Point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get list of available fields in Enrollment",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the list of entities on which we can do search",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the list of all zones in IEE",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the reportable options",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the version options",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the column definitions of Service point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the column definitions of Retailer",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the column definitions of Retail Settlement point",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get the column definitions of Enrollment",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get service point programs for commodity as Undefined",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get service point programs for commodity as Electric",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get service point programs for commodity as Gas",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get service point programs for commodity as Water",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get service points reading statuses",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get service-point  details",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Service point Readings for given date range",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Meter Readings for the given date ranges",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get service point channel readingsfor the given service point channel",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get service point formula contributors using service point channel ID",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get service point formula contributors using named formula",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get service points data source readings",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Submit data by Settlement point in Wholesale",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Submit data by Settlement point in Retail",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Retrieve Data by Settlement point ID in Wholesale",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Retrieve Data by Settlement point ID in Retail",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Settlements point channel details for Retail",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Settlement point channel details for Wholesale",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Submission History details for Settlement point ID-Wholesale",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Submission History details for Settlement point ID-Retail",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Settlement points List -Wholesale",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Settlements point-Retail",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Reportable and Non Reportable Settlements points for RetailZone",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Reportable and not reportable settlement points for Retail Market",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get settlement-comparison-data for Zone",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get settlement-comparison-data for Market",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get Settlements-point-Configuration for Wholesale",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get Settlements-point-config for Retail",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get List of Formulas for given service point if it is formula channel Copy",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get all the Settlement Entity types(Submit data-settlement types)",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Reportable  and Non repotable Settlem,ents point for Wholesale market",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get Reportable and Non Reportable Settlements point list for WholesaleZone",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get tasks by selecting all filter criterias",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get tasks by selecting only 1 filter criteria",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Download tasks by selecting all filter criterias",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Download tasks by selecting only 1 filter criteria",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get all the facet filter categories with options for run time date range type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get all the facet filter categories with options for scheduled time date range type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get all the facet filter categories with options for due time date range type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get Task logs by taskId",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get ChildTasks by TaskKey",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Call task action of Cancel for selected task",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Call task action of Hold for selected task",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Call task action of MoveToCurrent for selected task",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Call task action of MoveToHistory for selected task",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Call task action of Release for selected task",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Call task action of RunNow for selected task",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get export Valq results to excel format",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get export Valq results to csv format",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Search valq data by giving servicepoint id, processed date and meter id.",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Get valq results by selecting all the filter parameters.",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get facet filter options for a given start and end date of processed date data type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get facet filter options for a given start and end date of validation date data type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get web ui settings details",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get web ui settings system details",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get web ui settings time zone details",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get web ui settings DST details",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get web ui settings entity status of Meter entity status type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get web ui settings entity status of Premise entity status type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get web ui settings entity UDA details",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get web ui settings system settings of all sections",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get web ui settings workgroup details",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get web ui settings UDA details",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get web ui settings license check",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get web ui settings entity status of all entity status type",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get web ui settings system settings of WholesaleSettlementTitle section",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get all the views list of Validation Queue page",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get all the views list of Device Events page",
+    "status": "Passed"
+  },
+  {
+    "title": "Test GET - Get all the views list of Task Monitor page",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Create new view for Validation Queue page",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Create new view for Device Events page",
+    "status": "Passed"
+  },
+  {
+    "title": "Test POST - Create new view for Task Monitor page",
+    "status": "Passed"
+  },
+  {
+    "title": "Test PUT - Update any parameters of a view for Validation Queue page",
+    "status": "Passed"
+  },
+  {
+    "title": "Test PUT - Update any parameters of a view for Device Events page",
+    "status": "Passed"
+  },
+  {
+    "title": "Test PUT - Update any parameters of a view for Task Monitor page",
+    "status": "Passed"
+  },
+  {
+    "title": "Test PUT - Make any view as favourite by key value",
+    "status": "Passed"
+  },
+  {
+    "title": "Test PUT - Remove any view from favourites by key value",
+    "status": "Passed"
+  },
+  {
+    "title": "Test DELETE - Delete any given view by key value",
+    "status": "Passed"
+  }
+]
