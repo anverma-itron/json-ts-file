@@ -13,6 +13,7 @@
     "@types/node": "^20.12.11"
   },
   "dependencies": {
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "ws": "^8.17.0"
   }
 }
